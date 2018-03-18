@@ -28,7 +28,7 @@ body{
     transform: translate(-50%,-50%);
     padding: 10px 10px;
     display: block;
-    text-align: left;
+    text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     color: #B3B3B3;
     font-size: 4vw;
@@ -76,9 +76,6 @@ body{
 
 body{
     background-image: url(coming_soon_background.svg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
     min-height: 480px;
     min-width: 800px;
 }

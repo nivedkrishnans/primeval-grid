@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(coming_soon_background_portrait.svg);
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+
+#logo{
+    width: 36vw;
+    height: 56vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #B3B3B3;
+    font-size: 4vw;
+    font-weight: 400;
+    width: 70%;
+    
+}
+
+
+
+
+#year{
+    font-family: 'Lato', sans-serif;
+    color: white;   
+    font-size: 12vw;
+    font-weight: 400;
+}
+
+
+#coming{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+
+.big{
+    font-size: 9vw;
+    
+}
+
+#quote {
+    text-align: justify;
+}
+
+
+
+#writer{
+    font-style: italic;
+    text-align: right;
+}
+
+
+@media (min-width: 2160px) and (max-height: 2160px) , (min-width:1080px) and (max-height: 768px) , (min-width:480px){
+
+
+body{
+    background-image: url(coming_soon_background.svg);
+    min-height: 480px;
+    min-width: 800px;
+}
+
+
+
+#logo{
+    width: 23vh;
+    height: 36vh;
+    min-height: 200px;
+    min-width: 126px;
+}
+
+
+#main{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 3vh;
+    width: 70%;
+    min-width: 400px;
+    
+}
+
+#year{
+    font-size: 7.2vh;
+}
+
+#coming{
+    font-size: 4vh;
+}
+
+.big{
+    font-size: 6vh;   
+}
+
+#quote {
+    text-align: center;
+}
+
+    
+}

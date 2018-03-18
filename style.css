@@ -77,8 +77,10 @@ body{
 
 body{
     background-image: url(coming_soon_background.svg);
+        /*
     min-height: 480px;
     min-width: 800px;
+    */
 }
 
 
@@ -86,8 +88,10 @@ body{
 #logo{
     width: 23vh;
     height: 36vh;
+    /*
     min-height: 200px;
     min-width: 126px;
+    */
 }
 
 
@@ -96,7 +100,9 @@ body{
     text-align: center;
     font-size: 3vh;
     width: 70%;
+    /*
     min-width: 400px;
+    */
     
 }
 
@@ -126,8 +132,10 @@ body{
 
 body{
     background-image: url(coming_soon_background.svg);
+    /*
     min-height: 480px;
     min-width: 800px;
+    */
 }
 
 
@@ -135,8 +143,10 @@ body{
 #logo{
     width: 23vh;
     height: 36vh;
+    /*
     min-height: 200px;
     min-width: 126px;
+    */
 }
 
 
@@ -145,7 +155,9 @@ body{
     text-align: center;
     font-size: 3vh;
     width: 70%;
+    /*
     min-width: 400px;
+    */
     
 }
 

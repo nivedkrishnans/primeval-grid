@@ -120,3 +120,14 @@ body{
 
     
 }
+
+@media (orientation:portrait){
+    body{
+        background-image: url(coming_soon_background_portrait.svg);
+        background-size: cover;
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+    }
+}
